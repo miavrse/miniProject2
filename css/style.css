@@ -1,0 +1,104 @@
+body {
+    min-height: 100vh;
+    font-family: Arial, sans-serif;
+} 
+
+.login-wrapper {
+    min-height: calc(100vh - 48px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.login-card {
+    width: 100%;
+    max-width: 660px;
+    background: white;
+    border-radius: 24px;
+    overflow: hidden;
+    box-shadow: 0 15px 40px rgba(0, 0, 0, 0.15);
+}
+
+
+.login-card .card-header {
+    border: none;
+}
+
+
+.login-card .card-body {
+    background: white;
+}
+
+
+.login-card .form-control {
+    padding: 12px 15px;
+    border-radius: 8px;
+}
+
+
+.login-card .btn-purple {
+    padding: 12px;
+    font-size: 18px;
+    border-radius: 8px;
+}
+
+.bg-purple {
+    background-color: #77277e !important;
+}
+
+
+.btn-purple {
+    background-color: #77277e !important;
+    color: white !important;
+    border: none !important;
+}
+
+
+.btn-purple:hover {
+    background-color: #521b57 !important;
+    color: white !important;
+}
+
+
+.navbar-brand:hover {
+    color: #e0d0ff !important;
+}
+
+.login-card {
+    border-radius: 20px;
+    overflow: hidden;
+}
+
+.profile-value {
+    background-color: #f8f9fa;
+    border: 1px solid #dee2e6;
+    padding: 10px;
+    border-radius: 6px;
+    margin-top: 5px;
+}
+
+.table th,
+.table td {
+    vertical-align: middle;
+}
+
+button,
+.btn {
+    border-radius: 6px;
+}
+
+@media (max-width: 768px) {
+
+    nav {
+        flex-direction: column;
+        gap: 10px;
+        align-items: flex-start !important;
+    }
+
+    nav div {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+}
